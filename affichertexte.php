@@ -7,5 +7,21 @@
     <body>
         <h1>Ma page web</h1>
         <p>Aujourd'hui nous sommes le <?php echo date('d/m/Y h:i:s'); ?>.</p>
+
+        <a href="bonjour.php?nom=Dupon&amp;prenom=Nana">L'aventure continue par içi !</a>
+
+        <form method="POST" action="donneesFormulaire.php">
+            <p>
+                <label>Nom :
+                    <input type="text" name="nom" />
+                </label>
+            </p>
+            <p>
+                <label> Prénom :
+                    <input type="text" name="prenom" />
+                </label>
+            </p>
+            <input type="submit" valeur="Valider" />
+        </form>
     </body>
 </html>
