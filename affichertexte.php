@@ -12,13 +12,13 @@
 
         <form method="POST" action="donneesFormulaire.php">
             <p>
-                <label>Nom :
-                    <input type="text" name="nom" />
+                <label for="nom">Nom :
+                    <input type="text" name="nom" id="nom" />
                 </label>
             </p>
             <p>
-                <label> Prénom :
-                    <input type="text" name="prenom" />
+                <label for="prenom"> Prénom :
+                    <input type="text" name="prenom" id="prenom" />
                 </label>
             </p>
             <input type="submit" valeur="Valider" />
